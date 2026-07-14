@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- CUSTOM CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER SECTION START -->
+    <header class="header">
+      <section class="flex">
+        <div id="menu-btn" class="fas fa-bars-staggered"></div>
+        <a href="home.html" class="logo"
+          ><i class="fas fa-briefcase"></i>JobHunt.</a
+        >
+        <nav class="navbar">
+          <a href="home.html">home</a>
+          <a href="about.html">about us</a>
+          <a href="jobs.html">all jobs</a>
+          <a href="contact.html">contact us</a>
+          <a href="login.html">account</a>
+        </nav>
+        <a href="#" class="btn" style="margin-top: 0">post job</a>
+      </section>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <!-- HOME SECTION START -->
+    <div class="home-container">
+      <section class="home">
+        <form action="" method="post">
+          <h3>find your next job</h3>
+          <p>job title <span>*</span></p>
+          <input
+            type="text"
+            name="title"
+            placeholder="keyword, category or company"
+            required
+            maxlength="20"
+            class="input"
+          />
+          <p>job location</p>
+          <input
+            type="text"
+            name="location"
+            placeholder="city, state or country"
+            required
+            maxlength="50"
+            class="input"
+          />
+          <input type="submit" value="search job" name="search" class="btn" />
+        </form>
+      </section>
+    </div>
+    <!-- HOME SECTION END  -->
+
+    <!-- CATEGORY SECTION START -->
+    <section class="category">
+      <h1 class="heading">job categories</h1>
+      <div class="box-container">
+        <a href="#" class="box">
+          <i class="fas fa-code"></i>
+          <div>
+            <h3>development</h3>
+            <span>2200 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-person-digging"></i>
+          <div>
+            <h3>labour</h3>
+            <span>4000 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-hand-holding-dollar"></i>
+          <div>
+            <h3>finance</h3>
+            <span>1000 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-wrench"></i>
+          <div>
+            <h3>engineer</h3>
+            <span>400 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-headset"></i>
+          <div>
+            <h3>service</h3>
+            <span>3100 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-bullhorn"></i>
+          <div>
+            <h3>marketing</h3>
+            <span>1200 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-chalkboard-user"></i>
+          <div>
+            <h3>teacher</h3>
+            <span>1500 jobs</span>
+          </div>
+        </a>
+
+        <a href="#" class="box">
+          <i class="fas fa-pen"></i>
+          <div>
+            <h3>designer</h3>
+            <span>500 jobs</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- CATEGORY SECTION END -->
+
+    <!-- JOB SECTION START -->
+    <section class="jobs-container">
+      <h1 class="heading">latest jobs</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-1.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 25k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>part-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-2.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>15k - 25k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>full-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-3.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 25k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>part-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-4.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>7 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 20k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>full-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-5.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>1 month ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>12k - 20k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>part-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-6.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>2 weeks ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 22k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>full-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-7.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>3 weeks ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 25k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>full-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-8.png" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>4 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 15k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>part-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="company">
+            <img src="images/icon-9.jpg" />
+            <div>
+              <h3>IT infosys co.</h3>
+              <span>5 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location">
+            <i class="fas fa-map-marker-alt"></i> <span>ALEX - EGYPT</span>
+          </p>
+          <div class="tags">
+            <p>
+              <i class="fas fa-indian-rupee-sign"></i> <span>10k - 18k</span>
+            </p>
+            <p><i class="fas fa-briefcase"></i> <span>full-time</span></p>
+            <p><i class="fas fa-clock"></i> <span>day shift</span></p>
+          </div>
+          <div class="flex-btn">
+            <a href="view-job.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2rem">
+        <a href="jobs.html" class="btn">view all</a>
+      </div>
+    </section>
+    <!-- JOB SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer class="footer">
+      <section class="grid">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html"><i class="fas fa-angle-right"></i>home</a>
+          <a href="about.html"><i class="fas fa-angle-right"></i>about</a>
+          <a href="jobs.html"><i class="fas fa-angle-right"></i>all jobs</a>
+          <a href="contact.html"
+            ><i class="fas fa-angle-right"></i>contact us</a
+          >
+          <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"><i class="fas fa-angle-right"></i>account</a>
+          <a href="login.html"><i class="fas fa-angle-right"></i>login</a>
+          <a href="register.html"><i class="fas fa-angle-right"></i>register</a>
+          <a href="#"><i class="fas fa-angle-right"></i>post job</a>
+          <a href="#"><i class="fas fa-angle-right"></i>dashboard</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/abdelrahman.sakr.276667"><i class="fab fa-facebook-f"></i>facebook</a>
+          <a href="https://x.com/abdelra72623505"><i class="fab fa-twitter"></i>twitter</a>
+          <a href="https://www.instagram.com/sakr69500/"><i class="fab fa-instagram"></i>instagram</a>
+          <a href="https://www.linkedin.com/in/abdelrahman-sakr-9340b4318/"><i class="fab fa-linkedin"></i>linkedin</a>
+          <a href="https://www.youtube.com/@abdelrahmansakr-d4x"><i class="fab fa-youtube"></i>youtube</a>
+        </div>
+      </section>
+      <div class="credit">
+        &copy; copyright @ 2025 by <span>MR. ABDELRAHMAN SAKR </span> | all
+        rights reserved!
+      </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+
+    <!-- CUSTOM JS FILE LINK -->
+    <script src="script.js"></script>
+  </body>
+</html>
